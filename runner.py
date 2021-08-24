@@ -1,10 +1,9 @@
 import uvicorn
 
-from 1 import app
 
 uvicorn.run(
-    app,
-    host="0.0.0.0",
+    "1:app",
     port=8000,
+    host="0.0.0.0",
     log_level="debug",
 )
