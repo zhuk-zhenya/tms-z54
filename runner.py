@@ -1,5 +1,6 @@
 import uvicorn
 
+from asgi import app
 
 uvicorn.run(
     app,
