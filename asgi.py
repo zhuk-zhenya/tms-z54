@@ -7,7 +7,7 @@ from starlette.responses import HTMLResponse
 from starlette.responses import Response
 
 import db
-from lessons import task_3
+from home_work3_1 import task_3
 from users import gen_random_name
 from users import get_user
 from util import apply_cache_headers
@@ -54,4 +54,3 @@ async def _(request: Request, response: Response, data: str = Body(...)):
         number = await db.add_number(user, int(data))
 
     return {"data": {"n": number}}
-    
