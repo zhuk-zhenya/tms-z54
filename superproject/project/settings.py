@@ -17,7 +17,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
     "127.0.0.1",
     "localhost",
-    "z54z54z54.herokuapp.com"
+    "zhuk-zhenya.herokuapp.com"
 ]
 
 
